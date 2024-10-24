@@ -1,6 +1,7 @@
 import React from 'react';
 import illustration from '../../assets/images/illustration.png'
 
+
 const Header = () => {
   return (
     <div className='flex flex-col my-10 md:flex-row gap-4'>
