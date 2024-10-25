@@ -27,15 +27,8 @@ const Homepage = () => {
         <Footer/>
       
 
-      <section id="pricing" className="h-screen bg-gray-400">
-        <h1>Pricing Section</h1>
-        <p>Content for the Pricing section...</p>
-      </section>
-
-      <section id="help" className="h-screen bg-gray-500">
-        <h1>Help Section</h1>
-        <p>Content for the Help section...</p>
-      </section>
+      
+      
 
       
     </div>

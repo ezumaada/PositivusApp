@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import logo from '../../assets/images/Logo.png';
 import hamburger from '../../assets/images/burger-icon.png';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,14 +68,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#pricing" className='hover:text-lg transition duration-300'>
-              Pricing
-            </a>
+          <Link to="/signup" className='hover:text-lg transition duration-300'>
+          Pricing </Link>
           </li>
           <li>
-            <a href="#help" className='hover:text-lg transition duration-300'>
-              Help
-            </a>
+            <Link to="/login" className='hover:text-lg transition duration-300'>
+              Help </Link>
+            
           </li>
           <li className='border-2 rounded-md border-solid border-black px-3 py-2'>
             <a href="#quote-request" className='hover:text-lg transition duration-300'>

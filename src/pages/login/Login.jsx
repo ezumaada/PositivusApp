@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <form>
+    <form className='mx-[5vw]'>
       <div className="mb-4">
         <label className="block mb-2 text-sm">Email Address</label>
         <input type="email" className="w-full p-2 border rounded-md" placeholder="Enter your email" />

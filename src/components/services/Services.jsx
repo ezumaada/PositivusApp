@@ -1,10 +1,10 @@
 import React from 'react';
 import arrow from '../../assets/images/arrow.png';
-import seo from '../../assets/images/illustrationseo.png';
-import smm from '../../assets/images/illustrationsmm.png';
-import anal from '../../assets/images/illustrationanalytics.png';
-import ppc from '../../assets/images/illustrationpay.png';
-import coc from '../../assets/images/illustrationcontentc.png';
+import seo from '../../assets/images/Illustrationseo.png';
+import smm from '../../assets/images/Illustrationsmm.png';
+import anal from '../../assets/images/Illustrationanalytics.png';
+import ppc from '../../assets/images/Illustrationpay.png';
+import coc from '../../assets/images/Illustrationcontentc.png';
 import emm from '../../assets/images/emailm.png';
 
 const Services = () => {
