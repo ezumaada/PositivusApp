@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Illustration from '../../assets/images/contact-illustration.png';
+
 import radio from '../../assets/images/radio-button.png';
 
 const ContactUs = () => {
@@ -69,7 +69,7 @@ const ContactUs = () => {
 
         {/* Right side illustration */}
         <div className="hidden md:block absolute right-0 top-0 h-full">
-          <img src={Illustration} alt="Contact Illustration" className="object-cover h-full" />
+          <img src="/contact-Illustration.png" alt="Contact Illustration" className="object-cover h-full" />
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Illustration from '../../assets/images/illustration.png';
+
 
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
             </div>
         </div>
         <div>
-            <img className='w-auto ' src={Illustration} alt="illustration" />
+            <img className='w-auto ' src="/header-illustration.png" alt="illustration" />
         </div>
     </div>
   )
