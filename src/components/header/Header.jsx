@@ -1,5 +1,5 @@
 import React from 'react';
-import illustration from '../../assets/images/illustration.png';
+import Illustration from '../../assets/images/illustration.png';
 
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
             </div>
         </div>
         <div>
-            <img className='w-auto ' src={illustration} alt="illustration" />
+            <img className='w-auto ' src={Illustration} alt="illustration" />
         </div>
     </div>
   )
